@@ -14,7 +14,7 @@
             <div class="col">
             <form action="?route=article&create" method="post">
                     <?= $_SESSION['message']  ?? '' ?>
-                    <h1>Статья один ко многим</h1>
+                    <h1>Статья один ко многим и многие к многим</h1>
                     <input type="text" class="form-control"
                      name="title" placeholder="заголовок"title"><br>
                      <textarea name="text" class="form-control" placeholder="текст"></textarea><br>

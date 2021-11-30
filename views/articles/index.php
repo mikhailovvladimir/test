@@ -15,7 +15,7 @@
             <?php if (isset($data)) : ?>
                 <?php foreach ($data as $article) : ?>
                     <?php $category = $article['name']; ?>
-                    <h1><?= $article['title'] ?> </h1>
+                    <h3><?= $article['title'] ?> </h1>
                     <p1><?= $article['text'] ?> </p1><br>
                     <strong><?= $category ?> </strong><br>
                 <?php endforeach ?>
